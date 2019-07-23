@@ -39,7 +39,11 @@ export default function (state = initialState, action) {
       // state.smurfs.concat
       return {
         ...state,
-        addingSmurf: true
+        addingSmurf: true,
+        name,
+        age,
+        height,
+        id
 
       }
     }
